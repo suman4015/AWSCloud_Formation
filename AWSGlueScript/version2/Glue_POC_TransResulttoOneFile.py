@@ -55,5 +55,6 @@ Join_node1692357534082 = Join.apply(
 result_one = Join_node1692357534082.toDF().repartition(1)
 result_one.write.csv('s3://uat1-gwf-cc-storagegateway-us-east-1/test/Glue_POC/Glue_POC_Output2/')
 #new line in version 2
+#new line added 
 
 job.commit()
